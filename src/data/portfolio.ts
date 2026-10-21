@@ -56,7 +56,7 @@ export const education = [
     school: 'Government High School',
     place: 'Pedaboddepalli, Andhra Pradesh',
     degree: 'SSC',
-    period: '2019 – 2021',
+    period: '2022 – 2023',
     score: '92.33%',
   },
 ];
