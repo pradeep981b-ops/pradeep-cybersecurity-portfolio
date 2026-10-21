@@ -1,5 +1,5 @@
 /**
- * Central portfolio data — generated from Sushmita's resume (Sushmita_dasari.pdf).
+ * Central portfolio data — generated from Pradeep's resume (Pradeep_Resume.pdf).
  * Every fact on the site comes from this file. Update it here and the whole site follows.
  * Nothing here should be added unless it appears on the resume.
  */
@@ -12,10 +12,12 @@ export const profile = {
   firstName: 'PRADEEP',
   seriesTag: 'CYBERSECURITY',
   originalLabel: 'PRADEEP ORIGINAL',
-  role: 'Cybersecurity Student',
+  
+role: 'B.Tech Cybersecurity Student',
   tagline: ['Cybersecurity', 'Ethical Hacking', 'SOC Analyst'],
-  intro:
-    'I am a B.Tech Cybersecurity student at Vignan Institute of Information Technology, Visakhapatnam. I am passionate about ethical hacking, network security, and security operations, and I am working toward a career as a SOC Analyst.',
+  
+intro:
+  'I am a B.Tech Cybersecurity student at Vignan Institute of Information Technology, Visakhapatnam. I am interested in ethical hacking, network security, and security operations. I am continuously developing my technical skills and working toward a career as a SOC Analyst.',
   location: 'Visakhapatnam, Andhra Pradesh',
   email: 'pradeep981b@gmail.com',
   links: {
@@ -68,10 +70,10 @@ export const experience = [
     place: 'Remote',
     period: 'May 2025 – June 2025',
     points: [
-      'Completed a Python programming internship focused on coding and problem-solving.',
-      'Gained hands-on experience with programming concepts and real-world applications.',
-      'Built small projects and improved programming logic and confidence.',
-    ],
+  'Completed assigned tasks during a Python programming internship.',
+  'Practiced Python programming and problem-solving.',
+  'Strengthened programming fundamentals through hands-on exercises.',
+],
   },
 ];
 export type Metric = { value: string; label: string };
@@ -101,7 +103,7 @@ export const projects: Project[] = [
     genre: 'Web Development • Live Scoring',
     logline:
       'A shared live-scoring web app for street and local cricket, allowing players to follow ball-by-ball updates from their own phones.',
-    stack: ['JavaScript', 'Web Development', 'Real-Time Updates'],
+    stack: ['JavaScript', 'Web Development', 'Real-Time Communication'],
     build: [
       'Built a cricket scoring web app where players can access the same match using a match code and follow ball-by-ball score updates.',
       'Added a scoring baton so only one scorer is active at a time, allowing another available player to take over.',
